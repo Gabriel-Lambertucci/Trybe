@@ -1,0 +1,44 @@
+h1 {
+    color: rgb(68, 0, 255); 
+    font-family: sans-serif;
+    font-style:italic;
+    text-align: center;
+
+}
+ ul{ 
+     text-align: left;
+
+ }
+ p{ S
+     font-weight: 600px;
+     font-size: 3em;
+
+
+ }
+ .PeUl{
+     
+ }
+
+ body{ 
+     font-size:16px;
+  background-color: whitesmoke;
+
+ }
+
+ #amarelo{
+
+     background-color:yellow;
+     width: 58px;
+ }
+
+ #vermelho{
+
+     background-color:red;
+     width: 64px;
+ }
+ #marrom{
+
+     background-color: brown;
+     width: 55px;
+
+ }           
