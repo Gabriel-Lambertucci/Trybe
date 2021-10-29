@@ -1,0 +1,50 @@
+div:hover{
+    border-style:groove;
+    
+}
+
+div{ 
+    
+    margin: 50px;
+}
+
+div:first-of-type{
+    color:blue;
+}
+
+div:nth-of-type(2){
+    color: green; 
+}
+
+div:nth-of-type(3){
+    color: red;
+}
+
+div:nth-of-type(4){
+    font-family: monospace;
+}
+
+div:nth-of-type(5){
+    color: orangered;
+}
+
+
+h3:first-of-type{
+    font-family: monospace;
+}
+
+h3:nth-of-type(2){
+    
+}
+
+h3:nth-of-type(3){
+    
+}
+
+h3:nth-of-type(4){
+    
+}
+
+h3:nth-of-type(5){
+    
+}

@@ -1,0 +1,30 @@
+h1,p{
+    text-align: center;
+}
+
+.listaordenada:hover{ 
+        background-color: aqua;
+        width: 60px;
+    
+
+    }
+
+.listaordenada:active{
+    font-family:monospace;
+
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.listadesordenada:hover{
+
+    background-color:green;
+    width: 450px;
+}
+
+.listadesordenada:active{
+
+    font-family:monospace;
+}
