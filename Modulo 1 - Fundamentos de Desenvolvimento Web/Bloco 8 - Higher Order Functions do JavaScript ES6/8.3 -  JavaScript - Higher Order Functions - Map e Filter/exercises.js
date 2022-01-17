@@ -151,3 +151,9 @@ function authorWith3DotsOnName(array) {
 }
 
 console.log(authorWith3DotsOnName(books))
+
+
+let ar = [1,2,3];
+console.log(ar.includes(5));
+
+console.log(numberOfkeys(books.author))

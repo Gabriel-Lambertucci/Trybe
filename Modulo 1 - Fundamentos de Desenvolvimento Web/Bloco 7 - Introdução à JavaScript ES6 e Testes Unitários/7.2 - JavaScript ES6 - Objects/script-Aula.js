@@ -98,4 +98,4 @@ console.log(person)
 
 
 
-console.log(person[0][0])
+console.log(person)

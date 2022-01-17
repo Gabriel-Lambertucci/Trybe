@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let input = document.createElement('input');
+        input.type = 'number';
+        input.id = 'inputUsuario';
+        document.body.appendChild(input);
+
+        inputUsuario.addEventListener('keyup', inseriuValor);
+
+        function inseriuValor(e) {
+            if(e.keyCode === 13){
+            let valor_usuario = input.value;
+            console.log('O valor digitado foi: ' + valor_usuario);
+            return valor_usuario;
+            }
+            
+        }
+
+    
+        
+
+
+
+        
+    </script>
+</body>
+</html>

@@ -71,5 +71,6 @@ const checkAnswers = (arr1, arr2) => {
 const finalGrade = (arr1, arr2, func) => {
   return `Nota: ${func(arr1, arr2,)}`;
 }
-
-console.log(finalGrade(['b','c','b'], ['a','b','c'], checkAnswers))
+const RIGHT_ANSWERS =    ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+console.log(finalGrade(STUDENT_ANSWERS, RIGHT_ANSWERS, checkAnswers))

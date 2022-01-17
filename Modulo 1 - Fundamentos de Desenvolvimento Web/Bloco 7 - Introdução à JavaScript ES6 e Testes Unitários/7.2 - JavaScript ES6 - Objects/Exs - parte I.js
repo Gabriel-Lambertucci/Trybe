@@ -1,3 +1,4 @@
+/* Parte I */
 const order = {
   name: 'Rafael Andrade',
   phoneNumber: '11-98763-1416',
@@ -39,11 +40,7 @@ const order = {
 const customerInfo = (order) => {
   // Adicione abaixo as informações necessárias.
   console.log(`Olá ${order.order.delivery.deliveryPerson}, entrega para: ${order.name}, Telefone: ${order.phoneNumber},${order.address.street}, ${order.address.number}, AP: ${order.address.apartment}.`)
-
-
-
 }
-
 customerInfo(order);
 
 /*2- Complete a função orderModifier() para que seu retorno seja similar a "Olá Luiz Silva, o total do seu pedido de marguerita, pepperoni e Coca-Cola Zero é R$ 50,00." */
@@ -55,7 +52,6 @@ const orderModifier = (order) => {
   const newTotal = 50;
   order.payment.total = newTotal;
   console.log(`Olá ${order.name}, o total do seu pedido de marguerita, pepperoni e Coca-Cola Zero é R$ ${order.payment.total},00.`)
-
 }
-
 orderModifier(order);
+
