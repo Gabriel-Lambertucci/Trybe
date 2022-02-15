@@ -1,0 +1,8 @@
+#dadosPessoaisFieldSet {
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    margin-top: 20px;
+}
