@@ -12,7 +12,7 @@ const fetchJoke = async () => {
     const data = await response.json();
     console.log(data.value);
   } catch(error) {
-    console.log(`Algo deu errado :( \n${error}`);
+    console.log(`Algo deu errado:( \n${error}`);
   }
 }
 
